@@ -32,7 +32,7 @@ var timeCall = setInterval(function() {
     var resto5 = resto4 % minutesDenominator
     var secondsLeft = Math.floor(resto5 / secondsDenominator)
 
-    const novaFrase = yearsLeft + " Anos " + monthsLeft +" Meses " + daysLeft + " dias " + hoursLeft + " horas " + minutesLeft + " minutos " + secondsLeft + " segundos"
+    const novaFrase = yearsLeft + " ano(s) " + monthsLeft +" mês(es) " + daysLeft + " dia(s) " + hoursLeft + " hora(s) " + minutesLeft + " minuto(s) " + secondsLeft + " segundo(s)"
     
     
     document.getElementById('contador').innerText = novaFrase
